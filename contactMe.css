@@ -1,0 +1,198 @@
+/* header {
+    background-color: rgb(107, 107, 206);
+    font-family: sans-serif;
+    width: 101.2%;
+    margin-top: -110px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 25px;
+    z-index: 5;
+    position: absolute;
+    height: 70px;
+} */
+header {
+    font-family: sans-serif;
+    background-image: linear-gradient(white, hsl(75, 100%, 83%)55%, hsl(75, 50%, 50%) 0%, hsl(75, 100%, 83%));
+    text-shadow: 0px 0px 7px rgb(128, 128, 128);
+    width: 101.2%;
+    margin-top: -110px;
+    margin-left: -12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(75, 75, 75);
+    /* border-bottom-left-radius: 25px; */
+    z-index: 5;
+    position: fixed;
+    height: 70px;
+}
+body {
+    overflow-x: hidden;
+    background-color: hsl(240, 50%, 41%);
+    background-image: url(images/background2.jpg)
+}
+/* .home {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 100px;
+    height: 55px;
+    font-size: 18pt;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(107, 107, 206);
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+} */
+.home {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 100px;
+    height: 55px;
+    font-size: 18pt;
+    color: hsl(75, 100%, 95%);
+    font-weight: bold;
+    background-color: hsl(75, 50%, 61%);
+    border-width: 0px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    background-image: linear-gradient(hsl(75, 95%, 20%), hsl(75, 70%, 71%), hsl(75, 85%, 30%));
+    /* text-shadow: 0px 0px 5px rgba(255, 255, 255,0.5); */
+    border-style: hidden;
+    text-shadow: 0px 0px 7px rgb(128, 128, 128);
+}
+.home:hover {
+    text-shadow: 0px 0px 7px rgb(255, 255, 255);
+}
+.box {
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(107, 107, 206);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 100px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(white, hsl(75, 100%, 83%)55%, hsl(75, 50%, 50%) 0%, hsl(75, 100%, 83%));
+}
+#GmailText {
+    margin-right: 50%;
+    margin-top: 0%;
+    border-radius: 8px;
+    margin-bottom: -100px;
+    width: 260px;
+    background-color: hsl(240, 50%, 41%);
+    height: 32px;
+    color: rgb(214, 214, 214);
+    border-width: 2px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-color: white;
+    border-style: solid;
+    background-image: linear-gradient(white, hsl(75, 100%, 83%)55%, hsl(75, 50%, 50%) 0%, hsl(75, 100%, 83%));
+    text-shadow: 0px 0px 7px rgb(128, 128, 128);
+}
+#GmailText:hover {
+    margin-right: 50%;
+    margin-top: 0%;
+    border-radius: 8px;
+    border-radius: 8px;
+    width: 260px;
+    background-color: hsl(240, 50%, 71%);
+    height: 32px;
+    color: rgb(214, 214, 214);
+    border-width: 3px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-color: white;
+    border-style: solid;
+}
+#Gmail {
+    margin-right: 50%;
+    margin-top: 6%;
+    margin-bottom: -120px;
+    width: 256px;
+    height: 256px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: -51.6px;
+}
+#Github {
+    right: 291px;
+    margin-left: 50%;
+    margin-top: -50%;
+    width: 256px;
+    height: 256px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    margin-bottom: -34px;
+}
+#GithubText {
+    margin-left: 50%;
+    bottom: 1200px;
+    border-radius: 8px;
+    width: 260px;
+    margin-top: -50%;
+    background-color: hsl(240, 50%, 41%);
+    height: 32px;
+    color: rgb(214, 214, 214);
+    border-width: 2px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-color: white;
+    border-style: solid;
+    background-image: linear-gradient(white, hsl(75, 100%, 83%)55%, hsl(75, 50%, 50%) 0%, hsl(75, 100%, 83%));
+    text-shadow: 0px 0px 7px rgb(128, 128, 128);
+}
+#GithubText:hover {
+    right: 21.4%;
+    margin-left: 50%;
+    margin-top: -50%;
+    border-radius: 8px;
+    width: 260px;
+    background-color: hsl(240, 50%, 71%);
+    height: 32px;
+    color: rgb(214, 214, 214);
+    border-width: 3px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-color: white;
+    border-style: solid;
+}
+#gmailLabel {
+    position: absolute;
+    left: 400px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 15pt;
+}
+#githubLabel {
+    position: absolute;
+    right: 400px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 15pt;
+}
