@@ -2,7 +2,7 @@
 <html>
     <title>Adian Hooper's Portfolio</title>
     <header>
-        <link rel="icon" type="image/x-icon" href="./images/programming.png">
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/943/943329.png">
         <link rel="stylesheet" href="./style.css">
         <a href="./index.html"><button class="home">Home</button></a>
         <center>
@@ -11,7 +11,19 @@
         <a href="./contactMe.html"><button class="contactMe">Contact Me</button></a>
     </header>
     <body>
+        <div>
+            <!-- <div class="show-on-desktop hide-on-mobile">
+               <h1>This is for desktop</h1>   
+               <img src="https://via.placeholder.com/350" alt="" />
+            </div> -->
+            
+            <div class="show-on-mobile hide-on-desktop">
+              <h2>Some elements have been hidden since you are on a mobile device. For the best experience, view this site on a desktop.</h2>
+              <img src="https://via.placeholder.com/250" alt="" />
+            </div>
+         </div>
         <script defer src="./script.js"></script>
+        <div class="show-on-desktop hide-on-mobile">
         <div class="workSamples">
             <h3 class="glaretxt">Work Samples</h3>
             <a href="https://drive.google.com/uc?export=download&id=1fGg4E8VkdYkUJ6hS0nFDAcwnYRxm39w0" target="_blank">My Python raycasting engine</a><br><br>
@@ -19,11 +31,21 @@
             <a href="./GamePicker/index.html" target="_blank">Game Suggestor</a><br><br>
             <a href="./GamePicker/index.html" target="_blank"><img src="./images/gameSuggestor.png" id="gameSuggestorimg"></a>
         </div>
+        </div>
         <div class="aboutMe">
             <h3>About Me</h3>
-            <p>
-                Hello, my name is Adian. I've been interested in Computer-Science since I built my first computer a few years ago.
-            </p><a href=".\info.html"><p>more info</p></a>
+            <table>
+                <tr>
+                  <th>Name</th>
+                  <th>Field</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Adian Hooper</td>
+                  <td>Front-end development</td>
+                  <td>United States</td>
+                </tr>
+              </table> <a href=".\info.html"><p>more info</p></a>
         </p><a href="https://sictc.evscschools.com/"><p>SICTC Website</p></a>
         </div>
         <div class="experiences">
